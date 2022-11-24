@@ -1,0 +1,31 @@
+
+
+.cart {
+    max-width: 960px;
+    background-color: #cbccdb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-height: 100vh;
+    padding: 10px;
+    border-radius: 10px; 
+    margin: 0 auto;
+    
+    &-alert {
+        float: right;
+        margin-top: 10px
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;      
+        flex-direction: column;
+       .cart-list {
+        margin-bottom: 5px;
+       }
+    }
+    .total {
+        text-align: center;
+        font-size: 30px;
+    }
+}
+

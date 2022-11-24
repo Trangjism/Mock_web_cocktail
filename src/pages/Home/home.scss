@@ -1,0 +1,33 @@
+
+.home-items { 
+    max-width: 1200px;
+    margin: 0 auto; 
+    background-color: #cbccdb;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    min-height: 100vh;
+    padding: 10px;
+    border-radius: 10px;  
+    &-header {
+        .logout {
+            font-size: 30px;
+            background-color: #f4495d;
+            border-radius: 5px;
+        }
+        .logout:hover{
+            background-color: #febdc5;
+        }
+    }
+    &-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;       
+        min-height: 100vh;
+    }
+
+    &-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+    

@@ -1,0 +1,10 @@
+
+
+.not-found {
+ text-align: center; 
+}
+
+.not-found img {
+    min-width: 100vh;
+    min-height: 100vh;
+}
